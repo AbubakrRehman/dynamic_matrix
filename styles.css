@@ -1,10 +1,10 @@
-*{
+* {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
 
-.container{
+.container {
     display: flex;
     flex-direction: column;
     margin-top: 50px;
@@ -12,50 +12,48 @@
 }
 
 
-.matrix-container{
+.matrix-container {
     margin-top: 10px;
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
-    border:"2px solid red";
+    border: "2px solid red";
     justify-content: space-evenly;
-    width: 0px;
-    height: 0px;
+    opacity: 0;
     transition: all 1s ease-in;
 
 }
 
 
-.row-container,.col-container{
+.row-container,
+.col-container {
     margin-top: 10px;
 }
 
-input{
+input {
     padding: 3px;
 }
 
-.cell{
+.cell {
     display: flex;
     width: 48px;
     height: 48px;
-    border:1px solid black;
+    border: 1px solid black;
     justify-content: center;
     align-items: center;
-    opacity: 0;
-    transition: opacity 1s ease-out;
 }
 
-.submit-btn{
+.submit-btn {
     margin-top: 10px;
     border: none;
-    width:100px;
-    height:30px;
+    width: 100px;
+    height: 30px;
 
 }
 
-.submit-btn:hover{
+.submit-btn:hover {
     cursor: pointer;
     background-color: grey;
     color: white;
-    
+
 }
