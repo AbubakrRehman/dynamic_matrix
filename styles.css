@@ -19,6 +19,7 @@
     flex-direction: row;
     border:"2px solid red";
     justify-content: space-evenly;
+    transition: all 1s ease-in;
 
 }
 
