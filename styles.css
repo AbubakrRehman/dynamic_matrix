@@ -1,0 +1,56 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+    align-items: center;
+}
+
+
+.matrix-container{
+    margin-top: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    border:"2px solid red";
+    justify-content: space-evenly;
+
+}
+
+
+.row-container,.col-container{
+    margin-top: 10px;
+}
+
+input{
+    padding: 3px;
+}
+
+.cell{
+    display: flex;
+    width: 48px;
+    height: 48px;
+    border:1px solid black;
+    justify-content: center;
+    align-items: center;
+}
+
+.submit-btn{
+    margin-top: 10px;
+    border: none;
+    width:100px;
+    height:30px;
+
+}
+
+.submit-btn:hover{
+    cursor: pointer;
+    background-color: grey;
+    color: white;
+    
+}

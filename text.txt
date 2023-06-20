@@ -1,0 +1,5 @@
+Some frontend Optimzation techniques or practices like
+1> debounce and throttle
+2> image scrset
+3> intersection observer
+4> abortion of ongoing newtork call to prevent race around condition
