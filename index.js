@@ -45,8 +45,11 @@ submit_btn.addEventListener("click", (e) => {
         for ( let r = 0; r < row_value; r++) {
             if (c % 2 === 0) {
                  cells[`${r}-${c}`].innerText=`${++counter}`;
+                 cells[`${r}-${c}`].style.opacity="100%";
+          
             } else {
                  cells[`${row_value-1-r}-${c}`].innerText=`${++counter}`;
+                 cells[`${r}-${c}`].style.opacity="100%";
             }
 
         }

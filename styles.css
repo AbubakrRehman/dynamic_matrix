@@ -41,6 +41,8 @@ input{
     border:1px solid black;
     justify-content: center;
     align-items: center;
+    opacity: 0;
+    transition: opacity 1s ease-out;
 }
 
 .submit-btn{
