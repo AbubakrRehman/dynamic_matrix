@@ -17,7 +17,7 @@ submit_btn.addEventListener("click", (e) => {
     let counter = 0;
 
 
-
+    matrix_container.style.opacity = "0";
     emptyNode(matrix_container);
 
 
